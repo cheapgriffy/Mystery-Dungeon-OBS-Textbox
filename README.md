@@ -21,7 +21,9 @@ Or through the provided url in the github repo.
 You can also customize the appearance of the textbox by modifying the CSS styles in the `TextBox.vue` component.
 
 Here is a example of a correct url *order dont matter* <br>
-``http://localhost:5173/?username=Cutie&phrases=Hey%20its%20working,%20a%20Gui%20is%20on%20its%20way%20to%20edit%20this%20easily&date=true&typewriter=true``
+```
+http://localhost:5173/?username=Cutie&phrases=Hey%20its%20working,%20a%20Gui%20is%20on%20its%20way%20to%20edit%20this%20easily&date=true&typewriter=true
+```
 
 
 ## Project Setup
