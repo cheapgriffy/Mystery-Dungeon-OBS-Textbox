@@ -94,7 +94,7 @@ onMounted(() => {
 <style>
 .textbox {
     image-rendering: pixelated;
-    background-image: url(images/PmdTextbox.webp);
+    background-image: url(/images/PmdTextbox.webp);
     background-size: cover;
 
     /* initial size */

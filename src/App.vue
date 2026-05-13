@@ -21,19 +21,15 @@ const displayedPhrases = phrasesParam
 </script>
 
 <template>
-	<TextBox id="textbox" 
-		:phrases="displayedPhrases"
-		:username="params.get('username')" 
-		:sleepTime="50"
-		:isUsername="params.get('username') ? true : false"
-		:isTypeWriter="params.get('typewriter') == 'true'" 
+	<TextBox id="textbox" :phrases="displayedPhrases" :username="params.get('username')" :sleepTime="50"
+		:isUsername="params.get('username') ? true : false" :isTypeWriter="params.get('typewriter') == 'true'"
 		:isDate="params.get('date') == 'true'" />
 </template>
 
 <style scoped>
 @font-face {
 	font-family: "WonderMail";
-	src: url("fonts/wondermail.ttf") format("truetype");
+	src: url("/fonts/wondermail.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
