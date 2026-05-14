@@ -17,4 +17,6 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  // if deployement isn't on root domain, uncomment and set base
+  // base: '/textbox/',
 })
