@@ -21,9 +21,13 @@ const displayedPhrases = phrasesParam
 </script>
 
 <template>
-	<TextBox id="textbox" :phrases="displayedPhrases" :username="params.get('username')" :sleepTime="50"
-		:isUsername="params.get('username') ? true : false" :isTypeWriter="params.get('typewriter') == 'true'"
-		:isDate="params.get('date') == 'true'" />
+	<TextBox id="textbox" 
+	:phrases="displayedPhrases" 
+	:username="params.get('username')" 
+	:sleepTime="50"	
+	:isUsername="params.get('username') ? true : false" 
+	:isTypeWriter="params.get('typewriter') !== 'false'"
+	:isDate="params.get('date') == 'true'" />
 </template>
 
 <style scoped>
